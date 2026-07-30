@@ -88,22 +88,9 @@
   }
   @media (max-width:900px){ .compass-wrap{display:none;} }
 
-@keyframes compassSpin {
-    0% {
-        transform: rotate(-25deg);
-    }
-    50% {
-        transform: rotate(25deg);
-    }
-    100% {
-        transform: rotate(-25deg);
-    }
-}
 
-#compass-needle {
-    transform-origin: 50% 50%;
-    animation: compassSpin 5s ease-in-out infinite;
-}
+
+
   /* ---------- HERO ---------- */
   .hero{
     min-height:100vh;
